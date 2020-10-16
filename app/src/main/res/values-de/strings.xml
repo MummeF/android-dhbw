@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Uebung01</string>
+    <string name="leftbtn_key">Add</string>
+    <string name="rightbtn_key">Sub</string>
+    <string name="leftboxtext">"Counter: "</string>
+    <string name="cupcake_ipsum_medium">Cupcake ipsum dolor sit amet chocolate cake cake I love topping. Gummi bears cotton candy tiramisu sweet roll candy dragée. Muffin I love dessert croissant. I love halvah jelly-o sugar plum bonbon chupa chups candy. Marzipan gingerbread croissant tootsie roll I love. I love cotton candy pudding. Powder gingerbread bonbon I love I love soufflé. Cupcake cupcake biscuit powder lollipop biscuit fruitcake.</string>
+    <string name="thirdlinetext">Dritte Zeile (noch länger)</string>
+    <string name="firstlinetext">Erste Zeile</string>
+    <string name="secondlinetext">Zweite Zeile (Länger)</string>
+    <string name="imagedescription">CLA AMG 45s</string>
+</resources>
