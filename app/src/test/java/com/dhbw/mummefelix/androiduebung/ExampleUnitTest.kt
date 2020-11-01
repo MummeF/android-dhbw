@@ -1,4 +1,4 @@
-package com.dhbw.uebung01
+package com.dhbw.mummefelix.androiduebung
 
 import org.junit.Test
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Exercise01</string>
+    <string name="app_name">Exercise02</string>
     <string name="leftbtn_key">Add</string>
     <string name="rightbtn_key">Sub</string>
     <string name="leftboxtext">"Counter: "</string>

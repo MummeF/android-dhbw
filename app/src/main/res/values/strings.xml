@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Uebung01</string>
+    <string name="app_name">Uebung02</string>
     <string name="leftbtn_key">Add</string>
     <string name="rightbtn_key">Sub</string>
     <string name="leftboxtext">"Counter: "</string>
