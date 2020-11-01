@@ -1,41 +1,27 @@
 package com.dhbw.mummefelix.androiduebung
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
-    private var counter = 0
-    private val COUNTER_NAME = "COUNTER"
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val sharedPref = getSharedPreferences(COUNTER_NAME, 0)
-
-        counter = sharedPref.getInt(COUNTER_NAME, 0)
-
-
-        leftBox.setText("Counter: " + counter)
-        leftbtn.setOnClickListener{
-            counter++
-            leftBox.setText("Counter: " + counter)
-        }
-        rightbtn.setOnClickListener{
-            counter--
-            leftBox.setText("Counter: " + counter)
+        leftbtn.setOnClickListener {
+            val intent = Intent(this, SecondActivity::class.java)
+            var greetingtext = greetings.text.toString();
+            if (!greetingtext.equals("")) {
+                intent.putExtra("Greetings",  greetingtext)
+            }
+            var benz = Karre("Mercedes-AMG CLA 45s 4MATIC+ Coupé", 421, "designo mountaingrau magno")
+            intent.putExtra("Benz", benz)
+            startActivity(intent)
         }
 
 
     }
 
-    override fun onStop() {
-        val sharedPref = getSharedPreferences(COUNTER_NAME, 0)
-        val edit = sharedPref.edit()
-        edit.putInt(COUNTER_NAME, counter)
-        edit.apply()
-        super.onStop()
-    }
 }

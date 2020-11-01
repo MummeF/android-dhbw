@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CrankesterStyleEver">
+        <item name="android:textColor">#AAAAAA</item>/>
+        <item name="android:textStyle">normal</item>/>
+    </style>
+    <style name="AllerCrankesterStyleEver" parent="CrankesterStyleEver">
+        <item name="android:textStyle">italic</item>/>
+        <item name="android:textSize">10pt</item>/>
+
+    </style>
+
+</resources>
