@@ -1,9 +1,13 @@
 <resources>
-    <string name="app_name">Uebung03</string>
+    <string name="app_name" translatable="false">MovieDB</string>
     <string name="cupcake_ipsum_medium">Cupcake ipsum dolor sit amet chocolate cake cake I love topping. Gummi bears cotton candy tiramisu sweet roll candy dragée. Muffin I love dessert croissant. I love halvah jelly-o sugar plum bonbon chupa chups candy. Marzipan gingerbread croissant tootsie roll I love. I love cotton candy pudding. Powder gingerbread bonbon I love I love soufflé. Cupcake cupcake biscuit powder lollipop biscuit fruitcake.</string>
     <string name="imagedescription">Tolles Bild</string>
     <string name="date_toast">Hallo, %1$s! Deine Glückszahl lautet %2$d</string>
     <string name="nameHint">Namen eingeben</string>
     <string name="addElement">Element hinzufügen</string>
     <string name="toastBtnName">Toast!</string>
+    <string name="greetingText">Willkommen zurück, %s!</string>
+    <string name="loginText">Letzter Login: %s</string>
+    <string name="randomNumberText">Würfeln!</string>
+    <string name="randomToast">Du hast eine %d gewürfelt!</string>
 </resources>

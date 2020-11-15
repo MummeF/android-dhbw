@@ -1,4 +1,4 @@
-package com.dhbw.mummefelix.uebung03
+package com.dhbw.mummefelix.uebung04
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
