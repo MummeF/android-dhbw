@@ -10,4 +10,9 @@
     <string name="loginText">Last Login: %s</string>
     <string name="randomNumberText">Roll the dice!</string>
     <string name="randomToast">You got a %d</string>
+    <string name="wentWrongMessage">Something went wrong. Please check your internet connection or try again later.</string>
+    <string name="reloadRandomUserBtnText">New Random User</string>
+    <string name="wentWrongAndIAmNotResponsible">I AM NOT THE TRAITOR!!!! The Api is broken.</string>
+    <string name="notThatFastText">Relax and take it easy... Call is still running</string>
+    <string name="maleOnlyBtnText">New female User</string>
 </resources>

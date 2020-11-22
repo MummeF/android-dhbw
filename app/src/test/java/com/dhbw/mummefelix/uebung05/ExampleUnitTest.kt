@@ -1,4 +1,4 @@
-package com.dhbw.mummefelix.uebung04
+package com.dhbw.mummefelix.uebung05
 
 import org.junit.Test
 

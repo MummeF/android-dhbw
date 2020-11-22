@@ -10,4 +10,9 @@
     <string name="loginText">Letzter Login: %s</string>
     <string name="randomNumberText">Würfeln!</string>
     <string name="randomToast">Du hast eine %d gewürfelt!</string>
+    <string name="wentWrongMessage">Etwas ist schief gelaufen. Überprüfe deine Internetverbindung oder versuche es später erneut.</string>
+    <string name="reloadRandomUserBtnText">Neuer Random User</string>
+    <string name="wentWrongAndIAmNotResponsible">WIR SIND UNSCHULDIG!!!! Die Api hat ne Macke</string>
+    <string name="notThatFastText">Immer ruhig... Die Anfrage läuft noch!</string>
+    <string name="maleOnlyBtnText">Neuer weiblicher User</string>
 </resources>
